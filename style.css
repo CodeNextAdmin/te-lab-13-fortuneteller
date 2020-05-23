@@ -3,9 +3,11 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background:#e7e0de;
+  background-image:url('https://cdn.glitch.com/67d2a515-511a-4883-8b16-595f6bde89aa%2Fastrology-993127_1280.jpg?v=1590266229038');
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: 'Chelsea Market', cursive; 
+  color: #a5518b;
 }
