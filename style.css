@@ -2,7 +2,7 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+
   background: #e7e0de;
   background: url("https://cdn.glitch.com/67d2a515-511a-4883-8b16-595f6bde89aa%2Fastrology-993127_1280.jpg?v=1590266229038")
     no-repeat center center fixed;
@@ -10,8 +10,7 @@ body {
 }
 
 main {
-  
-/*     display: block;
+  /*     display: block;
   position: relative;
   width:100%;
     height:100%;
@@ -22,30 +21,42 @@ main {
   position: absolute;
   background: #e7e0de;
   opacity: 0.5; */
-  
 }
 
-.container{
-  
+.container {
   display: block;
-  position: relative;
-  width:100%;
-    height:100%;
+  position: absolute;
+  width: 110%;
+  height: auto;
+  margin-top:-20px;
+  margin-left:-5px;
+  bottom: 0;
+  top:0;
+  
+  
   
 }
 .container::after {
   content: "";
-  
+  background: #e7e0de;
   opacity: 0.5;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
 h1 {
   font-family: "Chelsea Market", cursive;
   color: #a5518b;
+}
+
+.title-bar{
+  
+  margin:0;
+  display:inline-block;
+  
+  
 }
