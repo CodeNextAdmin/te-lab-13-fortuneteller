@@ -47,3 +47,20 @@ h1 {
   font-family: "Chelsea Market", cursive;
   color: #a5518b;
 }
+.fortune-btn{
+  display:inline-block;
+  
+  color:red;
+  
+  displain
+}
+
+.fortune-box{
+  display:block;
+  position:absolute;
+  width:40%;
+  background:red;
+  height:300px;
+  top:50%;
+  
+}
