@@ -24,6 +24,8 @@ let fortunes=[
 
 function showFortune(){
 
+  const randomElement = fortunes[Math.floor(Math.random() * fortunes.length)];
   
+  document.querySelector(".fortune-txt").innerHTML = randomElement;
 
 }
