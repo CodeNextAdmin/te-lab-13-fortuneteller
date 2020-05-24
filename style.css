@@ -48,19 +48,44 @@ h1 {
   color: #a5518b;
 }
 .fortune-btn{
-  display:inline-block;
+  display:block;
+   color:#a5518b;
+  width:100%;
+  height:40px;
+  background:#fcfcfc;
+  text-align:center;
+  margin: 0px auto;
+  font-family:"Chelsea Market", cursive;
+  font-size:120%;
   
-  color:red;
+}
+
+.fortune-btn:hover{
+  background:#e3c4d6;
   
-  displain
+}
+
+.fortune-btn:active{
+background:#a5518b;
+  color:#fcfcfc;
 }
 
 .fortune-box{
   display:block;
   position:absolute;
-  width:40%;
-  background:red;
-  height:300px;
-  top:50%;
+  width:50%;
+  background:#a5518b;
+  height:200px;
+  top:65%;
+  left:30%;
+  color:#e7e0de;
+  padding:30px;
+    
   
+}
+
+.fortune-txt{
+  
+  font-family: 'Great Vibes', cursive;
+  font-size:150%;
 }
