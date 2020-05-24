@@ -2,51 +2,48 @@
 html {
   background-color: #fcfcfc;
   color: #222222;
-  font-size: 16px; 
+  font-size: 16px;
 }
 body {
-  
- max-width: 1000px;
- margin: 0px auto;
- padding: 20px;
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 10px;
 }
 
-header{
-  
-   text-align: center; 
-
+header {
+  text-align: center;
 }
 
-p { 
-  font-family: Tahoma, arial; 
+p {
+  font-family: Tahoma, arial;
   font-weight: normal;
   color: #2aa391;
 }
 
 p.tagline {
-  font-style: italic; 
-  font-size: 18px; 
+  font-style: italic;
+  font-size: 18px;
 }
 
 main {
- 
- 
-  
+}
+.container {
+  display: inline-block;
    
+  margin:auto;
+  background: #e3c4d6;
+  width:100%;
+  height: 600px;
+
 }
- {
-  width: 100%;
+
+.fortune-image{
   
+  width:100%;
+  height:600px;
 }
- 
- 
- 
 
 h1 {
   font-family: "Chelsea Market", cursive;
   color: #a5518b;
 }
-
- 
-
- 
