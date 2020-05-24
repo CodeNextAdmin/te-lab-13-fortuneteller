@@ -29,63 +29,59 @@ main {
 }
 .container {
   display: inline-block;
-   
-  margin:auto;
-  background: #e3c4d6;
-  width:100%;
-  height: 600px;
 
+  margin: auto;
+  background: #e3c4d6;
+  width: 100%;
+  height: 600px;
 }
 
-.fortune-image{
-  
-  width:100%;
-  height:600px;
+.fortune-image {
+  width: 100%;
+  height: 600px;
 }
 
 h1 {
   font-family: "Chelsea Market", cursive;
   color: #a5518b;
 }
-.fortune-btn{
-  display:block;
-   color:#a5518b;
-  width:100%;
-  height:40px;
-  background:#fcfcfc;
-  text-align:center;
+.fortune-btn {
+  display: block;
+  color: #a5518b;
+  width: 100%;
+  height: 40px;
+  background: #fcfcfc;
+  text-align: center;
   margin: 0px auto;
-  font-family:"Chelsea Market", cursive;
-  font-size:120%;
-  
+  font-family: "Chelsea Market", cursive;
+  font-size: 120%;
 }
 
-.fortune-btn:hover{
-  background:#e3c4d6;
-  
+.fortune-btn:hover {
+  background: #e3c4d6;
 }
 
-.fortune-btn:active{
-background:#a5518b;
-  color:#fcfcfc;
+.fortune-btn:active {
+  background: #a5518b;
+  color: #fcfcfc;
+  outline:0;
+}
+ 
+
+.fortune-box {
+  display: block;
+  position: absolute;
+  width: 300px;
+  background: #a5518b;
+  height: 160px;
+  top: 65%;
+  left: 50%;
+  color: #e7e0de;
+  padding: 30px;
+  opacity:90%;
 }
 
-.fortune-box{
-  display:block;
-  position:absolute;
-  width:50%;
-  background:#a5518b;
-  height:200px;
-  top:65%;
-  left:30%;
-  color:#e7e0de;
-  padding:30px;
-    
-  
-}
-
-.fortune-txt{
-  
-  font-family: 'Great Vibes', cursive;
-  font-size:150%;
+.fortune-txt {
+  font-family: "Great Vibes", cursive;
+  font-size: 150%;
 }
