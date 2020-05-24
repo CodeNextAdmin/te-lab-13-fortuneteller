@@ -1,12 +1,21 @@
 /* CSS files add styling rules to your content */
-
+html {
+  background-color: #fcfcfc;
+  color: #222222;
+  font-size: 16px; 
+}
 body {
-  font-family: helvetica, arial, sans-serif;
+  
+  background: url("https://cdn.glitch.com/67d2a515-511a-4883-8b16-595f6bde89aa%2Fastrology-993127_1280.jpg?v=1590266229038");
+  max-width: 1000px;
+ margin: 0px auto;
+  padding: 20px;
+}
 
-  background: #e7e0de;
-  background: url("https://cdn.glitch.com/67d2a515-511a-4883-8b16-595f6bde89aa%2Fastrology-993127_1280.jpg?v=1590266229038")
-    no-repeat center center fixed;
-  background-size: cover;
+h1, h2, h3 ,h4, h5, h6 { 
+  font-family: arial; 
+  font-weight: normal;
+  color: #2aa391;
 }
 
 main {
@@ -42,7 +51,7 @@ h1 {
   width:80%;
   margin:30px;
   background:  #e7e0de;
-  width:100%;
+  
   
   
   
